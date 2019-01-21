@@ -21,6 +21,11 @@
     <keyboard-shortcut first-keystroke="escape" second-keystroke="comma" />
     <keyboard-shortcut first-keystroke="escape" second-keystroke="shift less" />
   </action>
+  <action id="GotoBookmark6" />
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift f6" />
+    <keyboard-shortcut first-keystroke="ctrl 6" />
+  </action>
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
 </keymap>
