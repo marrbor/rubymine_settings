@@ -10,6 +10,7 @@
     <keyboard-shortcut first-keystroke="shift back_space" />
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
+  <action id="EditorSplitLine" />
   <action id="EditorTextEnd">
     <keyboard-shortcut first-keystroke="ctrl end" />
     <keyboard-shortcut first-keystroke="shift alt period" />
@@ -22,6 +23,9 @@
     <keyboard-shortcut first-keystroke="escape" second-keystroke="shift less" />
   </action>
   <action id="GotoBookmark6" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="ctrl o" />
+  </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift f6" />
     <keyboard-shortcut first-keystroke="ctrl 6" />
