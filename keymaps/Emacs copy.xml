@@ -22,6 +22,11 @@
     <keyboard-shortcut first-keystroke="escape" second-keystroke="comma" />
     <keyboard-shortcut first-keystroke="escape" second-keystroke="shift less" />
   </action>
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="alt f7" />
+    <keyboard-shortcut first-keystroke="shift alt s" />
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="shift underscore" />
+  </action>
   <action id="Generate.Missing.Members.ES6" />
   <action id="Generate.Missing.Members.TypeScript" />
   <action id="GotoBookmark6" />
