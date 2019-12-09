@@ -30,6 +30,22 @@
         <root url="file:///Library/Ruby/Gems/2.6.0/gems/algoliasearch-1.27.1/resources" />
       </excluded>
     </library>
+    <library name="ast (v2.4.0, ruby-2.3.7-p456) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/ast-2.4.0/lib" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/ast-2.4.0/test" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/ast-2.4.0/lib" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/ast-2.4.0/test" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/ast-2.4.0/test" />
+      </excluded>
+    </library>
     <library name="atomos (v0.1.3, ruby-2.3.7-p456) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -45,13 +61,6 @@
       <excluded>
         <root url="file:///Library/Ruby/Gems/2.6.0/gems/atomos-0.1.3/bin" />
       </excluded>
-    </library>
-    <library name="bigdecimal (v1.2.8, ruby-2.3.7-p456) [gem]" type="rubylib">
-      <properties>
-        <option name="version" value="4" />
-      </properties>
-      <CLASSES />
-      <SOURCES />
     </library>
     <library name="CFPropertyList (v2.3.6, ruby-2.3.7-p456) [gem]" type="rubylib">
       <properties>
@@ -372,12 +381,21 @@
         <root url="file:///Library/Ruby/Gems/2.6.0/gems/i18n-0.9.5/gemfiles" />
       </excluded>
     </library>
-    <library name="io-console (v0.4.5, ruby-2.3.7-p456) [gem]" type="rubylib">
+    <library name="jaro_winkler (v1.5.4, ruby-2.3.7-p456) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
       </properties>
-      <CLASSES />
-      <SOURCES />
+      <CLASSES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/jaro_winkler-1.5.4/ext" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/jaro_winkler-1.5.4/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/jaro_winkler-1.5.4/ext" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/jaro_winkler-1.5.4/lib" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/jaro_winkler-1.5.4/ext" />
+      </excluded>
     </library>
     <library name="libxml-ruby (v3.1.0, ruby-2.3.7-p456) [gem]" type="rubylib">
       <properties>
@@ -527,6 +545,61 @@
         <root url="file:///System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/gems/2.6.0/gems/nokogiri-1.10.1/patches" />
       </excluded>
     </library>
+    <library name="parallel (v1.19.1, ruby-2.3.7-p456) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/parallel-1.19.1/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/parallel-1.19.1/lib" />
+      </SOURCES>
+    </library>
+    <library name="parser (v2.6.5.0, ruby-2.3.7-p456) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/parser-2.6.5.0/ci" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/parser-2.6.5.0/bin" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/parser-2.6.5.0/doc" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/parser-2.6.5.0/lib" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/parser-2.6.5.0/test" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/parser-2.6.5.0/ci" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/parser-2.6.5.0/bin" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/parser-2.6.5.0/doc" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/parser-2.6.5.0/lib" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/parser-2.6.5.0/test" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/parser-2.6.5.0/ci" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/parser-2.6.5.0/bin" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/parser-2.6.5.0/doc" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/parser-2.6.5.0/test" />
+      </excluded>
+    </library>
+    <library name="parslet (v1.8.2, ruby-2.3.7-p456) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/parslet-1.8.2/lib" />
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/parslet-1.8.2/spec" />
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/parslet-1.8.2/example" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/parslet-1.8.2/lib" />
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/parslet-1.8.2/spec" />
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/parslet-1.8.2/example" />
+      </SOURCES>
+      <excluded>
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/parslet-1.8.2/spec" />
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/parslet-1.8.2/example" />
+      </excluded>
+    </library>
     <library name="power_assert (v1.1.3, ruby-2.3.7-p456) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -541,6 +614,22 @@
       </SOURCES>
       <excluded>
         <root url="file:///Library/Ruby/Gems/2.6.0/gems/power_assert-1.1.3/bin" />
+      </excluded>
+    </library>
+    <library name="rainbow (v3.0.0, ruby-2.3.7-p456) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/rainbow-3.0.0/lib" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/rainbow-3.0.0/spec" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/rainbow-3.0.0/lib" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/rainbow-3.0.0/spec" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/rainbow-3.0.0/spec" />
       </excluded>
     </library>
     <library name="rake (v12.3.2, ruby-2.3.7-p456) [gem]" type="rubylib">
@@ -565,6 +654,31 @@
         <root url="file:///Library/Ruby/Gems/2.6.0/gems/rake-12.3.2/exe" />
       </excluded>
     </library>
+    <library name="rubocop (v0.77.0, ruby-2.3.7-p456) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/rubocop-0.77.0/bin" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/rubocop-0.77.0/exe" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/rubocop-0.77.0/lib" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/rubocop-0.77.0/assets" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/rubocop-0.77.0/config" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/rubocop-0.77.0/bin" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/rubocop-0.77.0/exe" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/rubocop-0.77.0/lib" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/rubocop-0.77.0/assets" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/rubocop-0.77.0/config" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/rubocop-0.77.0/bin" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/rubocop-0.77.0/exe" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/rubocop-0.77.0/assets" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/rubocop-0.77.0/config" />
+      </excluded>
+    </library>
     <library name="ruby-macho (v1.4.0, ruby-2.3.7-p456) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -574,6 +688,17 @@
       </CLASSES>
       <SOURCES>
         <root url="file:///Library/Ruby/Gems/2.6.0/gems/ruby-macho-1.4.0/lib" />
+      </SOURCES>
+    </library>
+    <library name="ruby-progressbar (v1.10.1, ruby-2.3.7-p456) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/ruby-progressbar-1.10.1/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/ruby-progressbar-1.10.1/lib" />
       </SOURCES>
     </library>
     <library name="sqlite3 (v1.3.13, ruby-2.3.7-p456) [gem]" type="rubylib">
@@ -648,6 +773,17 @@
         <root url="file:///Library/Ruby/Gems/2.6.0/gems/thread_safe-0.3.6/yard-template" />
       </excluded>
     </library>
+    <library name="toml (v0.2.0, ruby-2.3.7-p456) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/toml-0.2.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/toml-0.2.0/lib" />
+      </SOURCES>
+    </library>
     <library name="tzinfo (v1.2.5, ruby-2.3.7-p456) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -662,6 +798,22 @@
       </SOURCES>
       <excluded>
         <root url="file:///Library/Ruby/Gems/2.6.0/gems/tzinfo-1.2.5/test" />
+      </excluded>
+    </library>
+    <library name="unicode-display_width (v1.6.0, ruby-2.3.7-p456) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/unicode-display_width-1.6.0/lib" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/unicode-display_width-1.6.0/data" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/unicode-display_width-1.6.0/lib" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/unicode-display_width-1.6.0/data" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/unicode-display_width-1.6.0/data" />
       </excluded>
     </library>
     <library name="xcodeproj (v1.13.0, ruby-2.3.7-p456) [gem]" type="rubylib">
