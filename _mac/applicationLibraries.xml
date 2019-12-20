@@ -126,6 +126,28 @@
         <root url="file:///System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/gems/2.6.0/gems/CFPropertyList-2.3.6/lib" />
       </SOURCES>
     </library>
+    <library name="citrus (v3.0.2, ruby-2.6.3-p62) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/citrus-3.0.2/doc" />
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/citrus-3.0.2/lib" />
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/citrus-3.0.2/test" />
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/citrus-3.0.2/benchmark" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/citrus-3.0.2/doc" />
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/citrus-3.0.2/lib" />
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/citrus-3.0.2/test" />
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/citrus-3.0.2/benchmark" />
+      </SOURCES>
+      <excluded>
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/citrus-3.0.2/doc" />
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/citrus-3.0.2/test" />
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/citrus-3.0.2/benchmark" />
+      </excluded>
+    </library>
     <library name="claide (v1.0.3, ruby-2.6.3-p62) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -1053,6 +1075,17 @@
       </CLASSES>
       <SOURCES>
         <root url="file:///Library/Ruby/Gems/2.6.0/gems/toml-0.2.0/lib" />
+      </SOURCES>
+    </library>
+    <library name="toml-rb (v2.0.1, ruby-2.6.3-p62) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/toml-rb-2.0.1/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/toml-rb-2.0.1/lib" />
       </SOURCES>
     </library>
     <library name="tracer (v0.1.0, ruby-2.6.3-p62) [gem]" type="rubylib">
