@@ -525,6 +525,27 @@
         <root url="file:///System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/irb/ext" />
       </excluded>
     </library>
+    <library name="iStats (v1.6.1, ruby-2.6.3-p62) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/iStats-1.6.1/bin" />
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/iStats-1.6.1/ext" />
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/iStats-1.6.1/lib" />
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/iStats-1.6.1/integrations" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/iStats-1.6.1/bin" />
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/iStats-1.6.1/ext" />
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/iStats-1.6.1/lib" />
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/iStats-1.6.1/integrations" />
+      </SOURCES>
+      <excluded>
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/iStats-1.6.1/bin" />
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/iStats-1.6.1/integrations" />
+      </excluded>
+    </library>
     <library name="jaro_winkler (v1.5.4, ruby-2.6.3-p62) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -726,6 +747,17 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/parallel-1.19.1/lib" />
+      </SOURCES>
+    </library>
+    <library name="parseconfig (v1.0.8, ruby-2.6.3-p62) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/parseconfig-1.0.8/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/parseconfig-1.0.8/lib" />
       </SOURCES>
     </library>
     <library name="parser (v2.6.5.0, ruby-2.6.3-p62) [gem]" type="rubylib">
@@ -986,6 +1018,28 @@
       </properties>
       <CLASSES />
       <SOURCES />
+    </library>
+    <library name="sparkr (v0.4.1, ruby-2.6.3-p62) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/sparkr-0.4.1/bin" />
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/sparkr-0.4.1/lib" />
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/sparkr-0.4.1/test" />
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/sparkr-0.4.1/examples" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/sparkr-0.4.1/bin" />
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/sparkr-0.4.1/lib" />
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/sparkr-0.4.1/test" />
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/sparkr-0.4.1/examples" />
+      </SOURCES>
+      <excluded>
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/sparkr-0.4.1/bin" />
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/sparkr-0.4.1/test" />
+        <root url="file:///Library/Ruby/Gems/2.6.0/gems/sparkr-0.4.1/examples" />
+      </excluded>
     </library>
     <library name="sqlite3 (v1.3.13, ruby-2.6.3-p62) [gem]" type="rubylib">
       <properties>
